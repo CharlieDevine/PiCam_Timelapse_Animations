@@ -2,8 +2,8 @@ setwd('../')
 git.fp = getwd()
 
 # Set House and PiCam ID vars
-house = 'House_2'
-picam = '6_PiCam03'
+house = 'House_1'
+picam = '4_PiCam18'
 
 # Set input filepath
 image.in.fp = paste(git.fp, 'Data', 'Images', house, picam, 'Raw_Images', sep = '/')
